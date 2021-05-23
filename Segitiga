@@ -1,0 +1,17 @@
+package com.company;
+
+public class Segitiga extends Shape {
+
+    private float alas;
+    private float tinggi;
+
+    public Segitiga(float alas, float tinggi) {
+        this.alas = alas;
+        this.tinggi = tinggi;
+    }
+
+    @Override
+    float getArea() {
+        return (float) (alas * tinggi);
+    }
+}
